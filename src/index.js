@@ -1,5 +1,4 @@
 const dotenv = require('dotenv')
-
 const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
@@ -11,7 +10,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 const withelist = [
-    'http://localhost:5173/'
+    'http://localhost:5173'
 ]
 
 app.use(morgan('dev'))
