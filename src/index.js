@@ -11,8 +11,8 @@ const port = process.env.PORT || 3000
 
 const withelist = [
     'http://localhost:5173',
-    'https://sistema-inventario-frontend-scvw.vercel.app',
-    'https://sistemainventario-backend.onrender.com'
+    'https://sistema-inventario-frontend-scvw.vercel.app'
+    // 'https://sistemainventario-backend.onrender.com'
 ]
 
 app.use(morgan('dev'))
