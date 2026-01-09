@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000
 
 const withelist = [
     'http://localhost:5173',
-    'sistema-inventario-frontend-beige.vercel.app',
+    'https://sistema-inventario-frontend-beige.vercel.app',
     'https://sistemainventario-backend.onrender.com'
 ]
 
